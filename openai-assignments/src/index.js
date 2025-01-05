@@ -15,11 +15,11 @@ const openai = new OpenAI({
 const messages = [
     { 
         role: "system", 
-        content: "You are a helpful assistant." 
+        content: "You are expert in explaining complex things in a simple way." 
     },
     {
         role: "user",
-        content: "explain Quantum Computing in brief", 
+       content: "explain Quantum Computing to a 10 yeras old kid in 10 lines", 
     },
 ]
 
